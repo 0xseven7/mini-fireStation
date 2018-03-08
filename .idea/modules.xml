@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/fireStation.iml" filepath="$PROJECT_DIR$/.idea/fireStation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mini-fireStation/.idea/fireStation.iml" filepath="$PROJECT_DIR$/../mini-fireStation/.idea/fireStation.iml" />
     </modules>
   </component>
 </project>
