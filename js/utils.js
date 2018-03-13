@@ -23,8 +23,8 @@ var utils = {
   makeExtrudeGeo: function (shape, amount) {
     var extrudeSetting = {
       steps: 1,
-      amount: 1,
-      bevelEabled: false
+      amount: amount,
+      bevelEnabled: false
     };
     var geo = new THREE.ExtrudeGeometry(shape, extrudeSetting);
     geo.rotateX(-0.5 * Math.PI);
@@ -42,7 +42,7 @@ var utils = {
         material = new THREE.MeshLambertMaterial({color: color});
         break;
       case 'phong':
-        material = new THREE.MeshPhongMaterial({color: color});
+        material = new THREE.MeshPhongMaterial({color: 0xffffff});
         break;
       default:
         console.log('unrecongnized type');
